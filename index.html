@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+   <div class="container" >
+   	 <header class="header">
+   	  <a class="logo-name" href="index.html">
+   		<img class="logo-img" src="img/Group.png">
+   		<span class="site-name">Tibetan divination MO</span>
+   	  </a>
+   	</header>
+    <main class="main">
+		<p class="subscribe-text">МО sets out to clarify for a person the future that awaits him, be it an answer to a specific question or a description of the general state of affairs.</p>
+        <p class="roll-text">Roll the dice and get accuainted with your life much closer</p>
+	     <div class="cub-div">
+			 <img class="cub-first" src="img/Rectangle.png" alt="">
+             <img class="cub-second" src="img/Rectangle(1).png" alt="">
+		 </div>
+		 <a class="roll-button" href="second.html"><span class="roll-button-text">ROLL THE DICE</span></a>
+		 <div class="ad-first"><span class="ad-first-text">AD</span></div>
+		 <div class="sybol-div">
+			 <div class="symbol-item">
+				 <img class="symbol-img" src="img/символы мо 1 (Traced).png" alt="">
+				 <span class="symbol-text">ДХИ</span>
+			 </div>
+			 <div class="symbol-item">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(1).png" alt="">
+				<span class="symbol-text">НА</span>
+			</div>
+			<div class="symbol-item">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(2).png" alt="">
+				<span class="symbol-text">РА</span>
+			</div>
+			<div class="symbol-item">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(3).png" alt="">
+				<span class="symbol-text">АХ</span>
+			</div>
+			<div class="symbol-item">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(4).png" alt="">
+				<span class="symbol-text">ПА</span>
+			</div>
+			<div class="symbol-item">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(5).png" alt="">
+				<span class="symbol-text">ЦА</span>
+			</div>
+		 </div>
+		 <div class="articles-container">
+			 <p class="articles-text">Articles</p>
+			 <div class="articles-div">
+				 <div class="articles-item-first">
+					 <span class="item-text">Moon Astrology</span>
+                     <a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				 </div>
+				 <div class="articles-item-second">
+					<span class="item-text">Karmic Contracts</span>
+					<a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				</div>
+			 </div>
+		 </div>
+		 <div class="pre-container">
+			<p class="articles-text">Predictions</p>
+			<div class="articles-div">
+				<div class="pre-item-first">
+				   <span class="pre-text-main">Cookie</span>
+				   <div class="pre-second-div">
+				   <span class="pre-item-text">Get the wisdom of your fortune cookie without the calories!</span>
+				   <a class="pre-item-button" href="#"><span class="item-button-text">Read more</span></a>
+				   </div>
+				</div>
+				<div class="pre-item-second">
+				   <span class="pre-text-main">Love prediction</span>
+				   <div class="pre-second-div">
+				   <span class="pre-item-text">Learn more about the love side of your life!</span>
+				   <a class="pre-item-button" href="#"><span class="item-button-text">Read more</span></a>
+				   </div>
+				</div>
+			</div>
+		</div>
+		<div class="test-container">
+			<p class="articles-text">Test</p>
+			<div class="articles-div">
+				<div class="test-item-first">
+					<span class="item-text test-text">What Is Your Negative Trait of Character?</span>
+					<a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				</div>
+				<div class="test-item-second">
+				   <span class="item-text test-text">What Gemstone Do You Resemble?</span>
+				   <a class="item-button" href="#"><span class="item-button-text" >Read more</span></a>
+			   </div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<span class="footer-text">© 2021 Spiritual Numerology</span><span class="footer-text-two">Privacy Policy</span>
+		
+	</footer>
+   </div>
+<script type="text/javascript">
+	   $(".roll-button").click(function() {
+        $(".cub-first").css("animation","1s linear 0s normal none 5 running rot"); 
+        $(".cub-second").css("animation","1s linear 0s normal none 5 running rot");                                  
+        var href = $(this).attr('href');
+             
+        setTimeout(function() {window.location = href}, 2000);
+        return false;
+    });
+</script>
+</body>
+</html>

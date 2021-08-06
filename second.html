@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div class="container">
+   	 <header class="header">
+   	  <a class="logo-name" href="index.html">
+   		<img class="logo-img" src="img/Group.png">
+   		<span class="site-name">Tibetan divination MO</span>
+   	  </a>
+   	</header>
+    <main class="main">
+    	<div class="choose-container">
+    		<div class="choose-div"><span class="choose-text">Health</span></div>
+    		<div class="choose-div"><span class="choose-text">Now</span></div>
+    		<div class="choose-div"><span class="choose-text">Connection</span></div>
+    	</div>
+    	<div class="sybol-div">
+			 <div class="symbol-item dhi">
+				 <img class="symbol-img" src="img/символы мо 1 (Traced).png" alt="">
+				 <span class="symbol-text">ДХИ</span>
+			 </div>
+			 <div class="symbol-item ha">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(1).png" alt="">
+				<span class="symbol-text">НА</span>
+			</div>
+			<div class="symbol-item pa">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(2).png" alt="">
+				<span class="symbol-text">РА</span>
+			</div>
+			<div class="symbol-item ah">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(3).png" alt="">
+				<span class="symbol-text">АХ</span>
+			</div>
+			<div class="symbol-item pa">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(4).png" alt="">
+				<span class="symbol-text">ПА</span>
+			</div>
+			<div class="symbol-item cha">
+				<img class="symbol-img" src="img/символы мо 1 (Traced)(5).png" alt="">
+				<span class="symbol-text">ЦА</span>
+			</div>
+		 </div>
+		 <p class="main-text-first">Even a very cautious person who received the sign «DHI NA — Golden Wheel» during fortune-telling can take a breath and joyfully meet the next stage of life. Few situations promise to develop as well as the one predicted by the fortune-telling that fell out.</p>
+		 <p class="main-text-second">The Golden Wheel symbol is an encrypted future that brings you new achievements and successes. Regardless of how your life is developing now, there is a road leading uphill ahead. Smile at your fate and hit the road without delay!</p>
+		 <p class="main-text-three">You can’t even imagine how many wonderful opportunities were missed due to the usual human sluggishness. How often do we say to ourselves: «I’ll wait a little longer, I need to finish something urgent here…» or: «There is no need to rush, all this will not leave me anywhere…»</p>
+		 <div class="ad-first"><span class="ad-first-text">AD</span></div>
+		 <p class="form-main-text">Get accuainted with your life much closer and get more by signing up!</p>
+		 <form class="form">
+		 	<div class="input-name">
+		 	<input  type="text" placeholder="Name" name="">
+		 	</div>
+		 	<div class="input-mail">
+		 	<input type="text" placeholder="Email" name="">
+		 	</div>
+		 	<a class="form-button" href="third.html"><span class="form-button-text">get started now</span></a>
+		 </form>
+         <div class="ad-first"><span class="ad-first-text">AD</span></div>
+		 <div class="articles-container">
+			 <p class="articles-text">Articles</p>
+			 <div class="articles-div">
+				 <div class="articles-item-first">
+					 <span class="item-text">Moon Astrology</span>
+                     <a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				 </div>
+				 <div class="articles-item-second">
+					<span class="item-text">Karmic Contracts</span>
+					<a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				</div>
+			 </div>
+		 </div>
+		 <div class="pre-container">
+			<p class="articles-text">Predictions</p>
+			<div class="articles-div">
+				<div class="pre-item-first">
+				   <span class="pre-text-main">Cookie</span>
+				   <div class="pre-second-div">
+				   <span class="pre-item-text">Get the wisdom of your fortune cookie without the calories!</span>
+				   <a class="pre-item-button" href="#"><span class="item-button-text">Read more</span></a>
+				   </div>
+				</div>
+				<div class="pre-item-second">
+				   <span class="pre-text-main">Love prediction</span>
+				   <div class="pre-second-div">
+				   <span class="pre-item-text">Learn more about the love side of your life!</span>
+				   <a class="pre-item-button" href="#"><span class="item-button-text">Read more</span></a>
+				   </div>
+				</div>
+			</div>
+		</div>
+		<div class="test-container">
+			<p class="articles-text">Test</p>
+			<div class="articles-div">
+				<div class="test-item-first">
+					<span class="item-text test-text">What Is Your Negative Trait of Character?</span>
+					<a class="item-button" href="#"><span class="item-button-text">Read more</span></a>
+				</div>
+				<div class="test-item-second">
+				   <span class="item-text test-text">What Gemstone Do You Resemble?</span>
+				   <a class="item-button" href="#"><span class="item-button-text" >Read more</span></a>
+			   </div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<span class="footer-text">© 2021 Spiritual Numerology</span><span class="footer-text-two">Privacy Policy</span>
+		
+	</footer>
+   </div>
+  <script type="text/javascript">
+  	 var symbol = Math.floor(Math.random() * 3) 
+    if(symbol == 0){$('.cha').css({"display": "flex"});
+$('.dhi').css({"display": "flex"})}
+    else if(symbol == 1){$('.ra').css({"display": "flex"});
+                        $('.pa').css({"display": "flex"});}
+    else if(symbol == 2){$('.ah').css({"display": "flex"});
+                        $('.ha').css({"display": "flex"});}
+
+ 
+  </script>
+</body>
+</html>
